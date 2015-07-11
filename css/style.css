@@ -37,21 +37,21 @@ nav {
 
 
 #content {
-	max-width: 60rem;
+	max-width: 960px;
 	margin: 0 auto;
 	height: 4.375rem;
+	padding: 0 3%;
 }
 
 #content > img.logo {
-	height:2.5rem;
+	height:2.25rem;
+	margin-top: .85em;
 }
 
 
 ul#nav {
 	float: right;
-	margin-right:3%;
-
-
+	margin-top: 1.5em;
 }
 
 ul#nav li {
@@ -62,17 +62,19 @@ ul#nav li {
 ul#nav li a {
 	color: #838994;
 	text-decoration: none;
-	font-size: 1.05em;
+	font-size: 1em;
 	font-family:'Roboto', sans-serif;
-	font-weight: 400;	
+	font-weight: 400;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;	
 }
 
 ul#nav li a:hover {
 	color: #56516e
+	cursor: pointer;
 }
 
-ul#nav li.meetKarma a {
+ul#nav li.active a {
 	font-weight: 600;
-	color: #56516e;
-	font-weight: 700;
+	color: #4c5058;
 }
