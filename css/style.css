@@ -1,0 +1,75 @@
+/* create borders areound elements */
+
+body {
+	background-color: lightGray;
+} 
+
+div {	
+	border: solid 1px Chocolate;
+}
+
+
+/* box-sizing:border box set up */
+
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+ /* general styles */ 
+
+
+nav {
+	height: 72px;
+	background-color: #fff;
+}
+
+#nav_container > img {
+	height: 40px;
+
+}
+
+#nav_container {
+	padding-top: .6em;
+	max-width: 990px;
+	margin: auto;
+	height: 72px;
+
+}
+
+ul#nav {
+	float: right;
+	margin-right:3%;
+
+}
+
+ul#nav li {
+	display: inline-block;
+	margin-left: 31px;
+}
+
+ul#nav li a {
+	color: #838994;
+	text-decoration: none;
+	font-size: 1em;
+	font-family:'Roboto', sans-serif;
+	font-weight: 400;	
+}
+
+ul#nav li a:hover {
+	color: #56516e
+}
+
+ul#nav li.meetKarma a {
+	font-weight: 600;
+	color: #56516e;
+	font-weight: 700;
+}
