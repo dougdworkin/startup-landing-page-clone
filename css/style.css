@@ -24,30 +24,33 @@ html {
   box-sizing: inherit;
   }
 
- /* general styles */ 
+ /* global styles */
+
+
+
+ /* navigation styles */ 
 
 
 nav {
-	height: 72px;
 	background-color: #fff;
 }
 
-#nav_container > img {
-	height: 40px;
 
+#content {
+	max-width: 60rem;
+	margin: 0 auto;
+	height: 4.375rem;
 }
 
-#nav_container {
-	padding-top: .6em;
-	max-width: 990px;
-	margin: auto;
-	height: 72px;
-
+#content > img.logo {
+	height:2.5rem;
 }
+
 
 ul#nav {
 	float: right;
 	margin-right:3%;
+
 
 }
 
@@ -59,7 +62,7 @@ ul#nav li {
 ul#nav li a {
 	color: #838994;
 	text-decoration: none;
-	font-size: 1em;
+	font-size: 1.05em;
 	font-family:'Roboto', sans-serif;
 	font-weight: 400;	
 }
