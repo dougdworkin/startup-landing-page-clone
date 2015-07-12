@@ -26,7 +26,9 @@ html {
 
  /* global styles */
 
-
+body {
+	font-family:'Roboto', sans-serif;
+}
 
  /* navigation styles */ 
 
@@ -36,14 +38,14 @@ nav {
 }
 
 
-#content {
+.content {
 	max-width: 960px;
 	margin: 0 auto;
 	height: 4.375rem;
 	padding: 0 3%;
 }
 
-#content > img.logo {
+.content > img.logo {
 	height:2.25rem;
 	margin-top: .85em;
 }
@@ -63,7 +65,6 @@ ul#nav li a {
 	color: #838994;
 	text-decoration: none;
 	font-size: 1em;
-	font-family:'Roboto', sans-serif;
 	font-weight: 400;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;	
@@ -78,3 +79,48 @@ ul#nav li.active a {
 	font-weight: 600;
 	color: #4c5058;
 }
+
+/* hero image styles */
+
+.heroImage {
+	background: url("../img/first-background-copy.jpg") no-repeat center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 665px;	
+ }
+
+ .mainContent {
+ 	text-align: center;
+ 	color: #fff;
+ 	margin-top: 180px;	
+ }
+
+ .mainContent > h1 {
+ 	font-size:3em;
+ 	font-weight: 100;
+ 	margin-bottom:.25em;	
+ }
+
+  .mainContent > h2 {
+ 	font-size:1.75em;
+ 	font-weight: 100;
+ 	margin-top: 0;
+ 	margin-bottom: 1.5em;	
+ }
+
+ .mainContent > p > a.orangeButton {
+ 	font-size:1.15em;
+ 	padding: 1em 1.5em ;
+ 	color: #fff;
+ 	text-decoration: none;
+ 	background-color:#f15a29;
+ 	border-radius: 5px;
+ 	margin-top: 0;
+ }
+
+ .mainContent > p > a.orangeButton:hover {
+ 	background-color:#d9400e;
+ }
+
