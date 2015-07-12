@@ -135,5 +135,6 @@ ul#nav li.highlight a {
 
 .heroImage a.orangeButton:hover {
  	background-color:#d9400e;
+ 	cursor: pointer;
  }
 
