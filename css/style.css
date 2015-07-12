@@ -30,6 +30,13 @@ body {
 	font-family:'Roboto', sans-serif;
 }
 
+.content {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 3%;
+	text-align: center;
+}
+
  /* navigation styles */ 
 
 
@@ -38,14 +45,11 @@ nav {
 }
 
 
-.content {
-	max-width: 960px;
-	margin: 0 auto;
+nav > .content {
 	height: 4.375rem;
-	padding: 0 3%;
 }
 
-.content > img.logo {
+nav > .content > img.logo {
 	height:2.25rem;
 	margin-top: .85em;
 }
@@ -75,52 +79,61 @@ ul#nav li a:hover {
 	cursor: pointer;
 }
 
-ul#nav li.active a {
-	font-weight: 600;
+ul#nav li.highlight a {
+	font-weight: 700;
 	color: #4c5058;
 }
 
 /* hero image styles */
 
 .heroImage {
-	background: url("../img/first-background-copy.jpg") no-repeat center;
+	background: url("../img/first-background-copy.jpg") no-repeat center bottom;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	height: 665px;	
+  	height: 41.5rem;
+  	overflow: auto;	
  }
 
- .mainContent {
- 	text-align: center;
+ .heroImage > .content {
  	color: #fff;
- 	margin-top: 180px;	
+ 	margin-top: 12.5rem;	
  }
 
- .mainContent > h1 {
- 	font-size:3em;
- 	font-weight: 100;
- 	margin-bottom:.25em;	
+.heroImage > .content > h1,
+.heroImage > .content > h2
+  {
+  	font-weight: 300;
+  }
+
+ .heroImage > .content > h1 {
+ 	font-size:3.15em;
+ 	margin-bottom:.275rem;	
  }
 
-  .mainContent > h2 {
- 	font-size:1.75em;
- 	font-weight: 100;
+.heroImage > .content > h2 {
+ 	font-size:1.5em;
  	margin-top: 0;
- 	margin-bottom: 1.5em;	
+ 	margin-bottom: 1.1rem;	
  }
 
- .mainContent > p > a.orangeButton {
+
+.heroImage a.orangeButton {
+ 	display: block;
  	font-size:1.15em;
  	padding: 1em 1.5em ;
  	color: #fff;
  	text-decoration: none;
  	background-color:#f15a29;
+ 	web-kit-border-radius: 5px;
+ 	moz-border-radius: 5px;
  	border-radius: 5px;
- 	margin-top: 0;
+ 	margin: 0 auto;
+ 	width: 8.5em;	
  }
 
- .mainContent > p > a.orangeButton:hover {
+.heroImage a.orangeButton:hover {
  	background-color:#d9400e;
  }
 
