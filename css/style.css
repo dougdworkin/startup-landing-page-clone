@@ -9,7 +9,7 @@ div {
 }
 
 
-/* box-sizing:border box set up */
+/* *********** box-sizing:border box set up *********** */
 
 
 html {
@@ -24,7 +24,7 @@ html {
   box-sizing: inherit;
   }
 
- /* global styles */
+ /* *********** global styles *********** */
 
 body {
 	font-family:'Roboto', sans-serif;
@@ -37,7 +37,7 @@ body {
 	text-align: center;
 }
 
- /* navigation styles */ 
+ /* *********** navigation styles *********** */ 
 
 
 nav {
@@ -84,7 +84,7 @@ ul#nav li.highlight a {
 	color: #4c5058;
 }
 
-/* hero image styles */
+/* *********** hero image styles *********** */
 
 .heroImage {
 	background: url("../img/first-background-copy.jpg") no-repeat center bottom;
@@ -138,3 +138,51 @@ ul#nav li.highlight a {
  	cursor: pointer;
  }
 
+/* *********** features section styles *********** */
+
+.features {
+	background-color: #fff;
+} 
+
+.bottomSection {
+	background-color: #fff;
+}
+
+.bottomSection > h2 {
+	font-size: 2.75em;
+	font-weight: 300;
+	margin-top: 6.50rem;
+	margin-bottom: 3.25rem
+}
+
+
+.bottomSection > ul > li {
+	display: inline-block;
+	border: solid 1px gray;
+	margin-top:0;
+	padding-top: 120px;
+	height:120px;
+	margin-right: 10%;
+	background-repeat: no-repeat;
+	background-position: center bottom;	
+	width: 8em;	
+}
+
+.bottomSection > ul > li > span {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+
+
+li.devices {
+	background-image: url("../img/icon-devices.svg");
+}
+
+li.productivity {
+	background-image: url("../img/icon-coffee.svg");
+}
+
+li.pay {
+	background-image: url("../img/icon-refill.svg");
+}
