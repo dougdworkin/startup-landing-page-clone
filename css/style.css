@@ -142,47 +142,39 @@ ul#nav li.highlight a {
 
 .features {
 	background-color: #fff;
+	padding: 6.50rem 0;
 } 
 
-.bottomSection {
-	background-color: #fff;
-}
 
 .bottomSection > h2 {
 	font-size: 2.75em;
 	font-weight: 300;
-	margin-top: 6.50rem;
+	margin-top: 0;
 	margin-bottom: 3.25rem
 }
 
+.bottomSection > ul  {
+	margin: 0;
+}
 
 .bottomSection > ul > li {
 	display: inline-block;
-	border: solid 1px gray;
 	margin-top:0;
-	padding-top: 120px;
-	height:120px;
 	margin-right: 10%;
-	background-repeat: no-repeat;
-	background-position: center bottom;	
 	width: 8em;	
 }
 
+.bottomSection > ul > li:first-child {
+	margin-left: 10%;	
+}
+
+.bottomSection > ul > li >img {
+	display: block;
+	margin-bottom: 2em;	
+}
+
 .bottomSection > ul > li > span {
-	font-size: 1em;
+	font-size: 1.5em;
 	font-weight: 400;
 }
 
-
-
-li.devices {
-	background-image: url("../img/icon-devices.svg");
-}
-
-li.productivity {
-	background-image: url("../img/icon-coffee.svg");
-}
-
-li.pay {
-	background-image: url("../img/icon-refill.svg");
-}
