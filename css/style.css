@@ -42,11 +42,15 @@ body {
 
 nav {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999; 		
 }
 
 
 nav > .content {
 	height: 4.375rem;
+	min-width: 765px;	
 }
 
 nav > .content > img.logo {
@@ -92,7 +96,7 @@ ul#nav li.highlight a {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	height: 41.5rem;
+  	height: 45.938rem;
   	overflow: auto;	
  }
 
