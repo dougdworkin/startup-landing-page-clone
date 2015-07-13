@@ -4,9 +4,9 @@ body {
 	background-color: lightGray;
 } 
 
-div {	
+ /*div {	
 	border: solid 1px Chocolate;
-}
+} */
 
 
 /* *********** box-sizing:border box set up *********** */
@@ -102,7 +102,7 @@ ul#nav li.highlight a {
 
  .heroImage > .content {
  	color: #fff;
- 	margin-top: 12.5rem;	
+ 	margin-top: 17rem;	
  }
 
 .heroImage > .content > h1,
@@ -113,7 +113,7 @@ ul#nav li.highlight a {
 
  .heroImage > .content > h1 {
  	font-size:3.15em;
- 	margin-bottom:.275rem;	
+ 	margin-bottom:.35em;	
  }
 
 .heroImage > .content > h2 {
@@ -185,3 +185,44 @@ ul#nav li.highlight a {
 	font-weight: 400;
 }
 
+/* *********** Footer styles *********** */
+
+footer {
+	background-color: #fff;
+}
+
+footer .footer {
+	border-top: solid 1px #d2d2d2;
+	padding: .5em 0 9em 0;
+}
+
+footer ul.social {
+	margin:0;
+	padding: 0;
+} 
+
+footer .social > li {
+	display: inline-block;
+	margin-right: .75em;	
+}
+
+footer .social > li > a > img {
+	width: 2.25em;
+	border: solid 1px #d2d2d2;
+	web-kit-border-radius: 50%;
+	moz-border-radius: 50%;
+	border-radius: 50%;
+	padding: .50em 
+}
+
+footer .social > li > a > img:hover {
+	background-color: #d2d2d2;
+	border-color: #000;
+	cursor: pointer;
+	}
+footer .copyright {
+	color: #d2d2d2;
+	font-weight: 300;
+	font-size: .95em;
+
+} 
