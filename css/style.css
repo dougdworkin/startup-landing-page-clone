@@ -145,6 +145,11 @@ ul#nav li.highlight a {
 	padding: 6.50rem 0;
 } 
 
+.content.bottomSection {
+	padding	: 0;
+	min-width: 	810px;
+}
+
 
 .bottomSection > h2 {
 	font-size: 2.75em;
@@ -153,27 +158,25 @@ ul#nav li.highlight a {
 	margin-bottom: 3.25rem
 }
 
-.bottomSection > ul  {
-	margin: 0;
-}
 
-.bottomSection > ul > li {
+.bottomSection .devices {
 	display: inline-block;
-	margin-top:0;
-	margin-right: 10%;
-	width: 8em;	
+	width: 33%;
+	height:	15em;
+	margin-right:-5px;
+	border:0; 	
 }
 
-.bottomSection > ul > li:first-child {
-	margin-left: 10%;	
-}
 
-.bottomSection > ul > li >img {
+.bottomSection img {
 	display: block;
-	margin-bottom: 2em;	
+	margin:auto;
+	margin-bottom: 1em;
+	width: 8em;
+
 }
 
-.bottomSection > ul > li > span {
+.bottomSection .devices h3 {
 	font-size: 1.5em;
 	font-weight: 400;
 }
