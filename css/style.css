@@ -203,9 +203,48 @@ footer ul.social {
 
 footer .social > li {
 	display: inline-block;
-	margin-right: .75em;	
+	margin-right: .75em;
+	font-size: 1.15em;	
 }
 
+
+footer .copyright {
+	color: #d2d2d2;
+	font-weight: 300;
+	font-size: .95em;
+
+} 
+
+
+footer .social > li > a > i {
+	width: 2.25em;
+	border: solid 1px #d2d2d2;
+	web-kit-border-radius: 50%;
+	moz-border-radius: 50%;
+	border-radius: 50%;
+	padding: .50em 
+}
+
+footer .social > li > a > i.fa-twitter {
+	color:#57aeef;
+}
+
+footer .social > li > a > i.fa-facebook {
+	color:#4c66a4;
+}
+
+footer .social > li > a > i.fa-instagram {
+	color:#3f729b;
+}
+
+
+footer .social > li > a > i:hover {
+	background-color: #d2d2d2;
+	cursor: pointer;
+	}
+
+
+/* styles for list with svg icons 
 footer .social > li > a > img {
 	width: 2.25em;
 	border: solid 1px #d2d2d2;
@@ -220,9 +259,5 @@ footer .social > li > a > img:hover {
 	border-color: #000;
 	cursor: pointer;
 	}
-footer .copyright {
-	color: #d2d2d2;
-	font-weight: 300;
-	font-size: .95em;
 
-} 
+*/
