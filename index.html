@@ -2,20 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Startup Land Page Clone</title>
+	<title>Startup Landing Page Clone</title>
 
-	<!-- Add Google Roboto Font 300 lght, 400 med, 700 bold--> 
+<!-- add favicon to site -->
+	<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+
+<!-- Add Google Roboto Font 300 lght, 400 med, 700 bold--> 
 	<link href='http://fonts.googleapis.com/css?family=Roboto:300,700,400' rel='stylesheet' type='text/css'>
 
-	<!-- Add FontAwesome for social icons --> 
-<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
+<!-- Add FontAwesome for social icons --> 
+	<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> -->
 
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
-	<!-- Add Normalize reset--> 
+<!-- Add Normalize reset--> 
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">	
 
-	<!-- Custom styles-->
+<!-- Custom styles-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
@@ -33,13 +36,13 @@
 			<li><a href="#">Login</a></li>
 		</ul>
 
- 		<img class="logo" src="img/karma-logo.svg" alt="Karma Logo">
+ 		<img class="logo" src="img/karma-logo.svg"  onerror="this.onerror=null; this.src='img/KarmaLogo.png'"  alt="Karma Logo">
 
-	</div>
+	</div> <!-- / content -->
 </nav>
 
 <main>
-	<div class="heroImage">
+	<div class="mainBanner">
 		<section class="content mainSection">
 			
 			<h1>Introducing Karma</h1>
@@ -50,31 +53,43 @@
 			<a class="orangeButton" href="#">Learn More</a>
 			</div>
 			
-		</section> <!-- / contnet -->
-	</div> <!-- / hero image -->
+		</section> <!-- / content mainSection -->
+	</div> <!-- / mainBanner -->
 
 	<div class="features">
 
-		<section class="content bottomSection">
+		<section class="content featuresSection">
 
 			<h2>Everyone needs a little Karma</h2>
 
-			<div class="devices">	
-				<img src="img/icon-devices.svg" alt="">
-		 		<h3>Internet for all devices</h3>
+			<div class="devices">
+				<a href="#">
+					<span> 	
+						<img src="img/icon-devices.svg" onerror="this.onerror=null; this.src='img/feature_devices.png'" alt="Multiple Devices">
+					 	<h3>Internet for all devices</h3>
+			 		<span>
+			 	</a>	
 	 		</div>
 
-			<div class="devices">	
-				<img src="img/icon-coffee.svg" alt="">
-				<h3>Boost your productivity</h3>
+			<div class="devices">
+				<a href="#">
+					<span> 	
+						<img src="img/icon-coffee.svg" onerror="this.onerror=null; this.src='img/feature_coffee.png'" alt="Cup of Coffee">
+						<h3>Boost your productivity</h3>
+					</span>
+				</a>		
 			</div>
 
-			<div class="devices">	
-				<img src="img/icon-refill.svg" alt="">
-				<h3>Pay as You Go</h3>
+			<div class="devices">
+				<a href="#">
+					<span> 		
+						<img src="img/icon-refill.svg" onerror="this.onerror=null; this.src='img/feature_gas.png'" alt="Gas Pump">
+						<h3>Pay as You Go</h3>
+					</span>
+				</a>		
 			</div>
 
-		</section> <!-- / bottomSection -->
+		</section> <!-- / content featuresSection -->
 	</div> <!-- / fetaures -->	
 
 </main>
@@ -86,25 +101,37 @@
 			<ul class="social">
 
 				<li>
-					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#">
+						<i class="fa fa-twitter"></i>
+					</a>
 				</li>
 				
 				<li>
-					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#">
+						<i class="fa fa-facebook"></i>
+					</a>
 				</li>
 					
 				<li>
-					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#">
+						<i class="fa fa-instagram"></i>
+					</a>
 				</li>
 
 
 			<!--  ***Is the below better for accessibility? ***	
 
-				<li><a href="#"><img src="img/soc-twitter.svg" alt="Twitter"></a></li>
+				<li>
+				<a href="#"><img src="img/soc-twitter.svg" alt="Twitter"></a>
+				</li>
 				
-				<li><a href="#"><img src="img/soc-facebook.svg" alt="Facebook"></a></li>
+				<li>
+				<a href="#"><img src="img/soc-facebook.svg" alt="Facebook"></a>
+				</li>
 					
-				<li><a href="#"><img src="img/soc-instagram.svg" alt="Instagram"></a></li>
+				<li>
+				<a href="#"><img src="img/soc-instagram.svg" alt="Instagram"></a>
+				</li>
 			-->
 
 
@@ -112,7 +139,7 @@
 
 			<p class="copyright">&copy; Karma Mobility, Inc.</p>
 
-	</div> <!-- / footer -->	
+	</div> <!-- / content footer -->	
 	
 </footer>
 	
