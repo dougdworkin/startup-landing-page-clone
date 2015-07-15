@@ -190,7 +190,7 @@ seemed more like it should be a link */
 	color: #000;
 }
 
-.featuresSection span:hover {
+.featuresSection div:hover {
 	color: #f05a29;
 }
 
